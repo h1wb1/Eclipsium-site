@@ -10,7 +10,7 @@ const translations = {
         
         // Hero section
         "hero-title": "ECLIPSUIM - Free\nsoftware for CS2",
-        "hero-subtitle": "Premium tools and utilities to improve your gameplay, customize your experience, and boost performance without moderators.",
+        "hero-subtitle": "Premium tools and utilities to improve your gameplay, customize your experience, and boost performance.",
         "hero-btn-download": "DOWNLOAD SOFTWARE",
         
         // Features section
@@ -65,7 +65,7 @@ const translations = {
         
         // Hero section
         "hero-title": "ECLIPSUIM - Безкоштовний\nсофт для CS2",
-        "hero-subtitle": "Преміум інструменти та утиліти для покращення геймплею, налаштування досвіду та підвищення продуктивності без модераторів.",
+        "hero-subtitle": "Преміум інструменти та утиліти для покращення геймплею, налаштування досвіду та підвищення продуктивності.",
         "hero-btn-download": "ЗАВАНТАЖИТИ СОФТ",
         
         // Features section
@@ -120,7 +120,7 @@ const translations = {
         
         // Hero section
         "hero-title": "ECLIPSUIM - Бесплатный\nсофт для CS2",
-        "hero-subtitle": "Премиум инструменты и утилиты для улучшения геймплея, настройки опыта и повышения производительности без модераторов.",
+        "hero-subtitle": "Премиум инструменты и утилиты для улучшения геймплея, настройки опыта и повышения производительности.",
         "hero-btn-download": "СКАЧАТЬ СОФТ",
         
         // Features section
