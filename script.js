@@ -5,7 +5,6 @@ const translations = {
         "logo": "ECLIPSUIM",
         "nav-home": "HOME",
         "nav-features": "FEATURES",
-        "nav-gallery": "GALLERY",
         "nav-download": "DOWNLOAD",
         
         // Hero section
@@ -60,7 +59,6 @@ const translations = {
         "logo": "ECLIPSUIM",
         "nav-home": "ГОЛОВНА",
         "nav-features": "ПЕРЕВАГИ",
-        "nav-gallery": "ГАЛЕРЕЯ",
         "nav-download": "ЗАВАНТАЖИТИ",
         
         // Hero section
@@ -115,7 +113,6 @@ const translations = {
         "logo": "ECLIPSUIM",
         "nav-home": "ГЛАВНАЯ",
         "nav-features": "ПРЕИМУЩЕСТВА",
-        "nav-gallery": "ГАЛЕРЕЯ",
         "nav-download": "ЗАГРУЗИТЬ",
         
         // Hero section
