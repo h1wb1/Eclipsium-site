@@ -154,7 +154,6 @@ const translations = {
         "footer-tagline": "Бесплатный софт для CS2",
         "footer-home": "Главная",
         "footer-features": "Преимущества",
-        "footer-gallery": "Галерея",
         "footer-download": "Загрузить",
         "footer-copyright": "© 2025 Eclipsuim. Все права защищены.",
         
