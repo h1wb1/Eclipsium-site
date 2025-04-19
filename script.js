@@ -5,6 +5,7 @@ const translations = {
       logo: "ECLIPSIUM",
       "nav-home": "HOME",
       "nav-features": "FEATURES",
+      "nav-video": "REVIEW",
       "nav-download": "DOWNLOAD",
   
       // Hero section
@@ -12,6 +13,12 @@ const translations = {
       "hero-subtitle":
         "Premium tools and utilities to improve your gameplay, customize your experience, and boost performance.",
       "hero-btn-download": "DOWNLOAD SOFTWARE",
+  
+      // Video section
+      "video-subtitle": "VIDEO",
+      "video-title": "SOFTWARE REVIEW",
+      "video-description":
+        "Watch a detailed review of our Eclipsium software for CS2. This video demonstrates all the features and capabilities that will help you improve your gaming experience.",
   
       // Features section
       "features-subtitle": "OUR",
@@ -47,6 +54,7 @@ const translations = {
       "footer-tagline": "Free software for CS2",
       "footer-home": "Home",
       "footer-features": "Features",
+      "footer-video": "Review",
       "footer-gallery": "Gallery",
       "footer-download": "Download",
       "footer-copyright": "© 2025 Eclipsuim. All rights reserved.",
@@ -60,6 +68,7 @@ const translations = {
       logo: "ECLIPSIUM",
       "nav-home": "ГОЛОВНА",
       "nav-features": "ПЕРЕВАГИ",
+      "nav-video": "ОГЛЯД",
       "nav-download": "ЗАВАНТАЖИТИ",
   
       // Hero section
@@ -67,6 +76,12 @@ const translations = {
       "hero-subtitle":
         "Преміум інструменти та утиліти для покращення геймплею, налаштування досвіду та підвищення продуктивності.",
       "hero-btn-download": "ЗАВАНТАЖИТИ СОФТ",
+  
+      // Video section
+      "video-subtitle": "ВІДЕО",
+      "video-title": "ОГЛЯД СОФТУ",
+      "video-description":
+        "Перегляньте детальний огляд нашого програмного забезпечення Eclipsium для CS2. У цьому відео демонструються всі функції та можливості, які допоможуть вам покращити ігровий досвід.",
   
       // Features section
       "features-subtitle": "НАШІ",
@@ -103,6 +118,7 @@ const translations = {
       "footer-tagline": "Безкоштовний софт для CS2",
       "footer-home": "Головна",
       "footer-features": "Переваги",
+      "footer-video": "Огляд",
       "footer-gallery": "Галерея",
       "footer-download": "Завантажити",
       "footer-copyright": "© 2025 Eclipsium. Всі права захищені.",
@@ -116,6 +132,7 @@ const translations = {
       logo: "ECLIPSIUM",
       "nav-home": "ГЛАВНАЯ",
       "nav-features": "ПРЕИМУЩЕСТВА",
+      "nav-video": "ОБЗОР",
       "nav-download": "ЗАГРУЗИТЬ",
   
       // Hero section
@@ -123,6 +140,12 @@ const translations = {
       "hero-subtitle":
         "Премиум инструменты и утилиты для улучшения геймплея, настройки опыта и повышения производительности.",
       "hero-btn-download": "СКАЧАТЬ СОФТ",
+  
+      // Video section
+      "video-subtitle": "ВИДЕО",
+      "video-title": "ОБЗОР СОФТА",
+      "video-description":
+        "Посмотрите подробный обзор нашего программного обеспечения Eclipsium для CS2. В этом видео демонстрируются все функции и возможности, которые помогут вам улучшить свой игровой опыт.",
   
       // Features section
       "features-subtitle": "НАШИ",
@@ -158,6 +181,7 @@ const translations = {
       "footer-tagline": "Бесплатный софт для CS2",
       "footer-home": "Главная",
       "footer-features": "Преимущества",
+      "footer-video": "Обзор",
       "footer-gallery": "Галерея",
       "footer-download": "Загрузить",
       "footer-copyright": "© 2025 Eclipsium. Все права защищены.",
@@ -266,7 +290,7 @@ const translations = {
   // Scroll animation function
   function handleScrollAnimations() {
     const animateElements = document.querySelectorAll(
-      ".section-header, .feature-card, .download-card, .discord-support, .gallery-container",
+      ".section-header, .feature-card, .download-card, .discord-support, .gallery-container, .video-container, .video-player, .video-description",
     )
   
     const observer = new IntersectionObserver(
@@ -401,7 +425,9 @@ const translations = {
     // Add animation classes to elements that should be animated on page load
     setTimeout(() => {
       document
-        .querySelectorAll(".section-header, .feature-card, .download-card, .discord-support, .gallery-container")
+        .querySelectorAll(
+          ".section-header, .feature-card, .download-card, .discord-support, .gallery-container, .video-container, .video-player, .video-description",
+        )
         .forEach((el) => {
           el.classList.add("animate")
         })
