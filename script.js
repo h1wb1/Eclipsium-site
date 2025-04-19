@@ -62,7 +62,7 @@ const translations = {
         "nav-download": "ЗАВАНТАЖИТИ",
         
         // Hero section
-        "hero-title": "ECLIPSUIM - Безкоштовний\nсофт для CS2",
+        "hero-title": "ECLIPSIUM - Безкоштовний\nсофт для CS2",
         "hero-subtitle": "Преміум інструменти та утиліти для покращення геймплею, налаштування досвіду та підвищення продуктивності.",
         "hero-btn-download": "ЗАВАНТАЖИТИ СОФТ",
         
@@ -85,7 +85,7 @@ const translations = {
         // Download section
         "download-subtitle": "БЕЗКОШТОВНО",
         "download-title": "ЗАВАНТАЖИТИ",
-        "download-software": "Програмне забезпечення Eclipsuim",
+        "download-software": "Програмне забезпечення Eclipsium",
         "download-version": "Версія 1.4",
         "download-settings": "Налаштування",
         "download-settings-desc": "Оптимальні налаштування",
@@ -102,7 +102,7 @@ const translations = {
         "footer-features": "Переваги",
         "footer-gallery": "Галерея",
         "footer-download": "Завантажити",
-        "footer-copyright": "© 2025 Eclipsuim. Всі права захищені.",
+        "footer-copyright": "© 2025 Eclipsium. Всі права захищені.",
         
         // Theme
         "theme-toggle-light": "Перейти на світлу тему",
