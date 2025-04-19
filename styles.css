@@ -643,6 +643,75 @@
     animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
   }
   
+  /* Video Review Section */
+  .video-review {
+    background-color: var(--bg-secondary);
+    position: relative;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .video-description {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .video-player {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-tertiary);
+    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.5s ease;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  }
+  
+  .video-player:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: var(--hover-shadow);
+  }
+  
+  .video-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .video-player::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, var(--accent-color) 0%, transparent 100%);
+    opacity: 0.1;
+    z-index: -1;
+    filter: blur(30px);
+    animation: pulse 4s ease-in-out infinite;
+  }
+  
   /* Features Section */
   .features {
     background-color: var(--bg-secondary);
@@ -1115,6 +1184,10 @@
       flex-direction: column;
       align-items: center;
     }
+  
+    .video-player {
+      padding-top: 65%; /* Adjust aspect ratio for smaller screens */
+    }
   }
   
   @media (max-width: 480px) {
@@ -1152,5 +1225,10 @@
       width: 120px;
       height: 80px;
     }
+  
+    .video-player {
+      padding-top: 75%; /* Even more vertical space for mobile */
+    }
   }
+  
   
