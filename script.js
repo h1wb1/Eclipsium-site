@@ -2,13 +2,13 @@
 const translations = {
     en: {
         // Navigation
-        "logo": "ECLIPSUIM",
+        "logo": "ECLIPSIUM",
         "nav-home": "HOME",
         "nav-features": "FEATURES",
         "nav-download": "DOWNLOAD",
         
         // Hero section
-        "hero-title": "ECLIPSUIM - Free\nsoftware for CS2",
+        "hero-title": "ECLIPSIUM - Free\nsoftware for CS2",
         "hero-subtitle": "Premium tools and utilities to improve your gameplay, customize your experience, and boost performance.",
         "hero-btn-download": "DOWNLOAD SOFTWARE",
         
@@ -31,7 +31,7 @@ const translations = {
         // Download section
         "download-subtitle": "FREE",
         "download-title": "DOWNLOAD",
-        "download-software": "Eclipsuim Software",
+        "download-software": "Eclipsium Software",
         "download-version": "Version 1.4",
         "download-settings": "Settings",
         "download-settings-desc": "Optimal settings",
@@ -56,7 +56,7 @@ const translations = {
     },
     ua: {
         // Navigation
-        "logo": "ECLIPSUIM",
+        "logo": "ECLIPSIUM",
         "nav-home": "ГОЛОВНА",
         "nav-features": "ПЕРЕВАГИ",
         "nav-download": "ЗАВАНТАЖИТИ",
@@ -116,7 +116,7 @@ const translations = {
         "nav-download": "ЗАГРУЗИТЬ",
         
         // Hero section
-        "hero-title": "ECLIPSUIM - Бесплатный\nсофт для CS2",
+        "hero-title": "ECLIPSIUM - Бесплатный\nсофт для CS2",
         "hero-subtitle": "Премиум инструменты и утилиты для улучшения геймплея, настройки опыта и повышения производительности.",
         "hero-btn-download": "СКАЧАТЬ СОФТ",
         
@@ -139,7 +139,7 @@ const translations = {
         // Download section
         "download-subtitle": "БЕСПЛАТНО",
         "download-title": "ЗАГРУЗИТЬ",
-        "download-software": "Программное обеспечение Eclipsuim",
+        "download-software": "Программное обеспечение Eclipsium",
         "download-version": "Версия 1.4",
         "download-settings": "Настройки",
         "download-settings-desc": "Оптимальные настройки",
@@ -155,7 +155,7 @@ const translations = {
         "footer-home": "Главная",
         "footer-features": "Преимущества",
         "footer-download": "Загрузить",
-        "footer-copyright": "© 2025 Eclipsuim. Все права защищены.",
+        "footer-copyright": "© 2025 Eclipsium. Все права защищены.",
         
         // Theme
         "theme-toggle-light": "Переключиться на светлую тему",
