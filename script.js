@@ -110,7 +110,7 @@ const translations = {
     },
     ru: {
         // Navigation
-        "logo": "ECLIPSUIM",
+        "logo": "ECLIPSIUM",
         "nav-home": "ГЛАВНАЯ",
         "nav-features": "ПРЕИМУЩЕСТВА",
         "nav-download": "ЗАГРУЗИТЬ",
